@@ -1,3 +1,7 @@
+// UCID: ns87@njit.edu, 
+//Date: 2024-02-05
+
+
 import java.util.Arrays;
 
 public class Problem1 {
@@ -13,15 +17,22 @@ public class Problem1 {
         processArray(a3);
         processArray(a4);
     }
+
     static void processArray(int[] arr){
         System.out.println("Processing Array:" + Arrays.toString(arr));
         System.out.println("Odds output:");
-        //hint: use the arr variable; don't diretly use the a1-a4 variables
-        //TODO add/edit code here
-        
-        //end add/edit section
-        System.out.println();
+
+        // Loop through each element in the array
+        for (int value : arr) {
+            // Check if the value is odd
+            if (value % 2 != 0) {
+                // Print odd values
+                System.out.print(value + " ");
+            }
+        }
+
+        // End add/edit section
+        System.out.println();  // Move this line outside of the loop
         System.out.println("End process");
     }
-    
 }
