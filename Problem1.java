@@ -1,6 +1,5 @@
-// UCID: ns87@njit.edu, 
-//Date: 2024-02-05
-
+// UCID: ns87@njit.edu
+// Date: 2024-02-05
 
 import java.util.Arrays;
 
